@@ -1,0 +1,13 @@
+name = "Calculator"
+uuid = "47395488-12a9-46c3-8a66-f0a300c4d371"
+authors = ["dodanecroman <dodanecroman@gmail.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
