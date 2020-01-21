@@ -1,6 +1,9 @@
 # Calculator.jl
 module Calculator
 
+include("Mortgage.jl")
+Include("Banking.jl")
+
 export interest, rate
 
 """
@@ -20,6 +23,5 @@ Calculate interest rate based on an `amount` and `interest`.
 function rate(amount, interest)
     return interest / amount
 end
-
 
 end # module
